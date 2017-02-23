@@ -14,7 +14,7 @@ const bazFactory = ({ text, icon }) => props => (
 
 const App = () => (
   <div>
-    {bazFactory({ text: 'Hello World', icon: 'An icon' })}
+    {bazFactory({ text: 'Hello World', icon: 'An icon' })()}
   </div>
 );
 
